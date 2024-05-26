@@ -7,7 +7,7 @@ local function SendMessage(url)
 
     local data = {
         ["embeds"] = {{
-            ["title"] = "Script Ran",
+            ["title"] = "Script Executed!",
             ["color"] = 65280,
             ["footer"] = {
                 ["text"] = "Omega Hub!"
